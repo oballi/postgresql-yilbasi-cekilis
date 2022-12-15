@@ -37,7 +37,7 @@ Repo içerisindeki **create_yilbasi_cekili_procedure.sql** procedureyi çalışt
 İlk 3.adımı hatasız bir şekilde yaptıysanız;
 - Personel tablosuna çekilişe katılacak kişilerin bilgilerini girebilirsiniz. (ID kısmı otomatik olarak artacaktır)
 - CALL **yilbasi_cekilis()** procedurunu çalıştırabilirsiniz.
-- artık **yilbasi** tablosunda kayitlariniza bakabilirsiniz :) 
+- Artık **yilbasi** tablosunda kayitlariniza bakabilirsiniz :) 
 
 ### Mantık
 - Personel tablosundaki kayıtlar for döngüsü ile alınır. Bu kayıtlara hediye_veren diyelim
