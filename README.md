@@ -12,6 +12,8 @@ Merhaba, aşağıdaki adımları uygulayarak postgresql veritabanında hızlı b
     ad_soyad varchar(50)  
 );
 
+veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
+
 ### 2.Adım - Yılbaşı Tablosu Oluşturma
 >create table yilbasi  
 (  
@@ -25,8 +27,11 @@ Merhaba, aşağıdaki adımları uygulayarak postgresql veritabanında hızlı b
     hediye_alan_id integer,  
     hediya_alan varchar(50)  
 );
+
+veya repodaki **create_yilbasi_table.sql** dosyasını çalıştırabilirsiniz
+
 ### 3.Adım - yilbasi_cekilis() Procedure Oluşturma
-Repo içerisindeki yılbasi_cekilis() procedureyi çalıştırmanız yeterli.
+Repo içerisindeki **create_yilbasi_cekili_procedure.sql** procedureyi çalıştırmanız yeterli.
 
 ### 4.Adım - Çalıştırma
 İlk 3.adımı hatasız bir şekilde yaptıysanız;
@@ -34,7 +39,7 @@ Repo içerisindeki yılbasi_cekilis() procedureyi çalıştırmanız yeterli.
 - CALL **yilbasi_cekilis()** procedurunu çalıştırabilirsiniz.
 
 ### Mantık
-- Personel tablosundaki kayıtlar for döngüsü ile alınır. Bu hayıtlara hediye_veren diyelim
+- Personel tablosundaki kayıtlar for döngüsü ile alınır. Bu kayıtlara hediye_veren diyelim
 - hediye_veren kişilerin karşısına hediye_alan kişileri getirmemiz lazım. 
 - hediye_alan kişileri bulmak için şartlar;
 --yilbasi tablosundaki hediye_alan kişi sayısı birden fazla olamaz
