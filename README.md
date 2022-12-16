@@ -14,7 +14,7 @@ create table personel
 );
 ```
 
-veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
+veya repodaki ```create_personel_table.sql``` dosyasını çalıştırabilirsiniz
 
 ### 2.Adım - Yılbaşı Tablosu Oluşturma
 ```
@@ -32,16 +32,16 @@ create table yilbasi
 );
 ```
 
-veya repodaki ```**create_yilbasi_table.sql**``` dosyasını çalıştırabilirsiniz
+veya repodaki ```create_yilbasi_table.sql``` dosyasını çalıştırabilirsiniz
 
 ### 3.Adım - yilbasi_cekilis() Procedure Oluşturma
-Repo içerisindeki **create_yilbasi_cekili_procedure.sql** procedureyi çalıştırmanız yeterli.
+Repo içerisindeki ```create_yilbasi_cekili_procedure.sql``` procedureyi çalıştırmanız yeterli.
 
 ### 4.Adım - Çalıştırma
 İlk 3.adımı hatasız bir şekilde yaptıysanız;
 - Personel tablosuna çekilişe katılacak kişilerin bilgilerini girebilirsiniz. (ID kısmı otomatik olarak artacaktır)
-- CALL **yilbasi_cekilis()** procedurunu çalıştırabilirsiniz.
-- Artık **yilbasi** tablosunda kayitlariniza bakabilirsiniz :) 
+- CALL ```yilbasi_cekilis()``` procedurunu çalıştırabilirsiniz.
+- Artık ```yilbasi``` tablosunda kayitlariniza bakabilirsiniz :) 
 
 ### Mantık
 - Personel tablosundaki kayıtlar for döngüsü ile alınır. Bu kayıtlara hediye_veren diyelim
