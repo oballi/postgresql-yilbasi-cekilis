@@ -48,4 +48,4 @@ Repo içerisindeki ```create_yilbasi_cekili_procedure.sql``` procedureyi çalı�
 2. hediye_veren kişilerin karşısına hediye_alan kişileri getirmemiz lazım. 
 3. hediye_alan kişileri bulmak için şartlar;
 * yilbasi tablosundaki hediye_alan kişi sayısı birden fazla olamaz
-* yilbasi tablosunda hediye alan ile hediye veren kişisi aynı olmaza 
+* yilbasi tablosunda hediye alan ile hediye veren kişisi aynı olmaz
