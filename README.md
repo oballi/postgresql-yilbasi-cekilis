@@ -4,18 +4,21 @@ Merhaba, aşağıdaki adımları uygulayarak postgresql veritabanında hızlı b
 
 # Adımlar
 ### 1.Adım - Personel Tablosu Oluşturma
->create table personel  
+```
+create table personel  
 (  
     id serial  
  constraint personel_pk  
             primary key,  
     ad_soyad varchar(50)  
 );
+```
 
 veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
 
 ### 2.Adım - Yılbaşı Tablosu Oluşturma
-```create table yilbasi  
+```
+create table yilbasi  
 (  
     id serial  
  constraint yilbasi_pk  
@@ -29,7 +32,7 @@ veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
 );
 ```
 
-veya repodaki **create_yilbasi_table.sql** dosyasını çalıştırabilirsiniz
+veya repodaki ```**create_yilbasi_table.sql**``` dosyasını çalıştırabilirsiniz
 
 ### 3.Adım - yilbasi_cekilis() Procedure Oluşturma
 Repo içerisindeki **create_yilbasi_cekili_procedure.sql** procedureyi çalıştırmanız yeterli.
