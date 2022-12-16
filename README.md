@@ -15,7 +15,7 @@ Merhaba, aşağıdaki adımları uygulayarak postgresql veritabanında hızlı b
 veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
 
 ### 2.Adım - Yılbaşı Tablosu Oluşturma
->create table yilbasi  
+```create table yilbasi  
 (  
     id serial  
  constraint yilbasi_pk  
@@ -27,6 +27,7 @@ veya repodaki **create_personel_table.sql** dosyasını çalıştırabilirsiniz
     hediye_alan_id integer,  
     hediya_alan varchar(50)  
 );
+```
 
 veya repodaki **create_yilbasi_table.sql** dosyasını çalıştırabilirsiniz
 
